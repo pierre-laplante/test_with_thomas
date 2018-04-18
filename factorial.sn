@@ -8,11 +8,12 @@
 			@version 1.0 2018-04-18 laplante@sednove.com Initial version
 
 		*/
-
-		if (n<=0) then
-			return 1;
-		else
-			return n*fact(n-1);
+		if isdigit(n) then 
+			if (n<=0) then
+				return 1;
+			else
+				return n*fact(n-1);
+			endif
 		endif
 	endf
 
