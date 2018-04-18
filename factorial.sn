@@ -1,5 +1,12 @@
 {{
 	function fact(n)
+		/*
+			@title factorial
+
+			Compute a recursive factorial
+
+		*/
+
 		if (n<=0) then
 			return 1;
 		else
