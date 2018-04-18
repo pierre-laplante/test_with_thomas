@@ -6,7 +6,7 @@
 			Compute a recursive factorial.
 
 			@version 1.0 2018-04-18 laplante@sednove.com Initial version
-
+			@version 1.1 2018-04-18 thomas@sednove.com Added digit check
 		*/
 		if isdigit(n) then 
 			if (n<=0) then
